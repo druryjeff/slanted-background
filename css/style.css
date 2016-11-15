@@ -1,0 +1,48 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #212121;
+  background-color: #212121;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.header h1 {
+  width: 80%;
+  margin: 0 auto;
+  padding: .75em 0;
+  font-family: 'Alegreya', serif;
+  font-size: 1.875em;
+  text-align: center;
+  line-height: 1;
+}
+
+.header h1 span {
+  color: rgba(33, 33, 33, 0.4);
+}
+
+.main p {
+  width: 80%;
+  margin: 1.5em auto;
+  font-size: 1em;
+  line-height: 1.4;
+  color: #fff;
+}
+
+@media screen and (min-width: 800px) {
+  .header h1 {
+    font-size: 4.5em;
+    padding-bottom: 0;
+  }
+
+  .main {
+    padding-top: 8em;
+    background: url(https://dl.dropboxusercontent.com/u/24386660/bg-slant.png) no-repeat top left;
+  }
+
+  .main p {
+    margin: 0 auto 1.5em;
+    font-size: 1.5em;
+  }
+}
